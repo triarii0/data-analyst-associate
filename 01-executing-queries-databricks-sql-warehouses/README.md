@@ -15,22 +15,6 @@ Es el dominio más extenso del temario de octubre de 2025 (sección 4 del PDF). 
 | [07-materialized-views-and-streaming-tables.md](./07-materialized-views-and-streaming-tables.md) | Vistas materializadas frente a tablas de streaming y vistas dinámicas | Alta |
 | [08-federated-queries.md](./08-federated-queries.md) | Lakehouse Federation: unir una tabla Delta con una base de datos externa | Media |
 
-## Cobertura de la guía del examen
-
-| Habilidad de la guía del examen (sección 4) | Dónde se trata |
-| :--- | :--- |
-| Utilizar Databricks Assistant en un Notebook o en un editor de SQL para facilitar la escritura y la depuración de consultas | [02 — Editor de consultas](./02-query-editor.md) |
-| Explicar el papel de un SQL Warehouse en la ejecución de consultas | [01 — SQL warehouses](./01-sql-warehouses.md) |
-| Consultar análisis entre sistemas uniendo datos de una tabla Delta y una fuente de datos federada | [08 — Consultas federadas](./08-federated-queries.md) |
-| Crear una vista materializada, incluido saber cuándo usar tablas de streaming y vistas materializadas, y diferenciar entre vistas dinámicas y materializadas | [07 — MV y tablas de streaming](./07-materialized-views-and-streaming-tables.md) |
-| Realizar operaciones de agregación como count, approximate count distinct, mean y estadísticas de resumen | [04 — Agregaciones](./04-aggregations-grouping.md) |
-| Escribir consultas para combinar tablas mediante diversas operaciones de unión ... así como operaciones de conjuntos como union y union all | [03 — JOIN y operaciones de conjuntos](./03-joins-and-set-operations.md) |
-| Realizar operaciones de ordenamiento y filtrado sobre una tabla | [04 — Agregaciones, ordenamiento y filtrado](./04-aggregations-grouping.md) · [05 — Funciones de ventana](./05-window-functions.md) |
-| Crear tablas administradas y tablas externas, incluida la creación de tablas mediante la unión de datos de varias fuentes (p. ej., CSV, Parquet, tablas Delta) | [06 — Creación de tablas](./06-creating-tables-and-time-travel.md) · [Tables & Schemas](../06-managing-data/01-tables-schemas.md) |
-| Usar el time travel de Delta Lake para acceder a versiones históricas de los datos y consultarlas | [06 — Time travel](./06-creating-tables-and-time-travel.md) |
-
-> [!note]
-> Las funciones de ventana no se mencionan en la guía del examen. Se incluyen aquí porque respaldan las habilidades de ordenamiento, filtrado y "corregir una consulta".
 
 ## Conceptos clave
 
